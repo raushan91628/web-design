@@ -1,0 +1,79 @@
+/* root */
+:root{
+    --main-green:green;
+    --main-blue:blue;
+    --main-white:white;
+    --main-purple:#ff5733;
+    --main-slow-black:#333;
+    --main-medium-black:#666;
+}
+
+
+.banner {
+    background-color:var(--main-purple);
+    color:var(--main-white);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.twist {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    /* color: #333; */
+}
+
+.sell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container {
+    text-align: center;
+    /* margin-bottom: 20px; */
+    /* border: 1px solid black; */
+}
+
+.image-container img {
+    width: 100%;
+    /* max-width: 300px; */
+    height: 15rem;
+    /* border-radius: 10px; */
+}
+
+.image-container p {
+    margin-top: 10px;
+    font-size: 1em;
+    color:var(--main-slow-black);
+}
+
+.cta {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cta h2 {
+    font-size: 1.5em;
+    color: var(--main-slow-black);
+}
+
+.cta p {
+    font-size: 1.2em;
+    color: var(--main-medium-black);
+}
+
+.cta button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: var(--main-white);
+    background-color: var(--main-blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta button:hover {
+    background-color: var(--main-green);
+}
